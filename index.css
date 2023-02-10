@@ -5,6 +5,10 @@ padding: 5px 15px;
 font-family: inter, sans-serif;
 }
 
+body{
+    background-color: hsl(36, 100%, 99%);
+}
+
 .title{
 Cursor:pointer;
 }
@@ -16,6 +20,7 @@ Height:10vh;
 }
 
 .img--0{
+margin-top: 20px;
 width: 50%;
 float: left;
 display: flex;
