@@ -203,21 +203,38 @@ h4{
 }
 
 .container--3{
-    display: block; 
-    width: 100%;  
-    line-height: 28px;        
+    display: inline-block;
+    width: 100%; 
+    line-height: 30px;    
 }
 
 .img--2{
     width: 50%;
+}
 
+.img--box{
+    width: 100%;
+    padding: 30px;
 }
 
 .text-box{
-    margin-top: -20px;
     width: 50%;
-    font-size: 14px;
-    padding: 20px;
+    float: right;
+}
+
+.text-box-1{
+    margin-top: -30px;
+    margin-bottom: 20px;
+}
+
+.text-box-2{
+    margin-top: -30px;
+    margin-bottom: 20px;
+}
+
+.text-box-3{
+    margin-top: -30px;
+    margin-bottom: 20px;
 }
 
 strong{
