@@ -51,7 +51,7 @@
             Transition: 0.4s;
             }
 
-            @Media Only Screen And (Max-Width:800px){
+            @Media Screen And (Max-Width:800px){
                 *{
                 Overflow:hidden;
                 }
@@ -190,7 +190,7 @@
                     }
 
                     button{
-                        margin-left: -50px;
+                        margin-left: -100px;
                     }
 
                     .h1{
@@ -206,7 +206,7 @@
                     }
                     
                     .img--2{
-                        width:100%;
+                        width:100px;
                         height:75px;
                     }
                     
