@@ -185,6 +185,7 @@
 
                 @media screen and (max-width: 800px) {
 
+
                     .container--1-0{
                         width: 100%;
                     }
@@ -198,18 +199,21 @@
                     }
 
                     .container--2-0{
-                        width:100%;
+                        width: 100%;
                     }
 
                     .container--3-0{
-                        width:100%;
+                        width: 100%;
                     }
                     
                     .img--2{
-                        width:100px;
-                        height:75px;
+                        width: 100px;
+                        height: 75px;
                     }
                     
+                    body{
+                        margin: 0 auto;
+                    }
 
                 }
 
