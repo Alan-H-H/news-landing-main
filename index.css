@@ -94,11 +94,12 @@ border: none;
 }
 
 .container--2{
-margin-top: 10px;
 width: 30%;
 float: right;
 background-color: hsl(240, 100%, 5%);
 line-height: 35px;
+padding-top: 50px;
+padding-bottom: 200px;
 }
 
 h3{
@@ -160,7 +161,7 @@ margin-left: -15px;
 margin-left: -15px; 
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1100px) {
 body{
     padding: none;
     margin: 0;
@@ -192,7 +193,7 @@ h1{
 }
 
 .text--1{
-    font-size: 10px
+    font-size: 11px
 }
 
 button{
@@ -205,20 +206,21 @@ button{
     width: 95%;
     float: right;
     line-height: 15px;
+    padding-top: 50px;
 }
 
 h3{
-    font-size: 16px;
+    font-size: 20px;
     color: goldenrod;
 }
 
 h4{
-    font-size: 10px;
+    font-size: 13px;
     color: hsl(36, 100%, 99%);         
 }  
 
 .text--2{
-    font-size: 9px;  
+    font-size: 11px;  
 }
 
 .container--3{
