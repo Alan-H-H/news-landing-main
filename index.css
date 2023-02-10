@@ -1,0 +1,205 @@
+*{
+    Margin:0 auto;
+    Color:hsl(233, 8%, 79%);
+    padding: 15px 30px;
+    font-family: inter, sans-serif;
+    }
+
+    .img--0{
+        margin-left: 50px;
+    }
+   
+    .title{
+    Cursor:pointer;
+    }
+
+    .navbar{
+    Display:flex;
+    Top:0;
+    Height:10vh;
+    Align-Items:center;
+    Padding:0px 20px;
+    }
+
+    .Nav-Sub{
+        width: 100%;
+        display: flex;
+        }
+
+        .List-Item {
+        Padding:10px;
+        List-Style:none;
+        }
+
+        .Nav-Link{
+        Color:inherit;
+        Text-Decoration:none;
+        }
+    
+        .ham{
+            Display:none;
+            Padding:5px;
+            Cursor:pointer;
+            }
+            
+            .Bar1,.Bar2,.Bar3{
+            Display:block;
+            Width:35px;
+            Height:3px;
+            Margin:5px Auto;
+            Background-Color:#101010;
+            Transition: 0.4s;
+            }
+
+            @Media Only Screen And (Max-Width:800px){
+                *{
+                Overflow:hidden;
+                }
+                .Nav-Sub{
+                position: absolute;
+                Top:10vh;
+                Right:0px;
+                Flex-Direction:column;
+                Background-Color:rgb(0,0,0,0.75);
+                Border-Radius:0px 0px 0px 20px;
+                Transition:transform 0.3s Ease-In;
+                Transform:translate(100%);
+                }
+                .Nav-Change{
+                Transform:translate(0%);
+                }
+                .ham{
+                Display:block;
+                }
+                .Change .Bar1 {
+                Transform: Rotate(45deg) Translate(8px,3px);
+                }
+                .Change .Bar2 {
+                Opacity: 0;
+                }
+                .Change .Bar3 {
+                Transform: Rotate(-45deg) Translate(8px,-3px);
+                }
+                }
+
+                .container--1-0 {
+                    width: 60%;
+                    float: left;
+                }
+
+                .img--1{
+                    width: 120%;
+                }
+
+                h1{
+                    font-size: 33px;
+                    color:hsl(240, 100%, 5%);
+                    width: 50%;
+                    float: left;
+                    font-weight: 800;
+                }
+
+                .text--1{  
+                    width: 50%;
+                    font-size: 14px;
+                    margin-left: -30px; 
+                    color:hsl(236, 13%, 42%);
+                }
+                
+                button{
+                    letter-spacing: 3px;
+                    font-size: 10px;
+                    margin-top: 5px;
+                    background-color: hsl(5, 85%, 63%);
+                    color: white;
+                    padding: 12px 40px;
+                    border: none;
+                }
+
+                .container--2-0{
+                    margin-top: 30px;
+                    width:25%;
+                    float: right;
+                    background-color: hsl(240, 100%, 5%);
+                }
+
+                h3{
+                    font-size: 33px;
+                    color: goldenrod;
+                }
+
+                h4{
+                    font-size: 14px;
+                    color: hsl(36, 100%, 99%);
+                    margin-left: -30px;
+                }  
+                
+                .text--2{
+                    font-size: 12px;
+                    margin-left: -30px;
+                }
+
+                *{
+                    box-sizing: border-box;
+                }
+                
+                .container--3-0{
+                    margin: 0 auto;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;                
+                }
+                
+                .img--2{
+                    width: 50%;
+                    display: flex;
+                    height: 150px;
+                    width: 200px;
+                    float: left;
+                }
+
+                .text-box{
+                    margin-left: -20px;
+                    font-size: 11px;
+                    flex-direction: column;
+                    width: 50%;
+                    float: right;
+                }
+
+                strong{
+                    margin-left: -30px;
+                    color:hsl(240, 100%, 5%);
+                    font-size: 16px;
+                }
+                
+                .number{
+                    margin-top: -30px;
+                    font-size: 40px;
+                }
+                
+                .text--3{
+                    margin-top: -10px;
+                    margin-left: -30px;
+
+                }
+
+                @media screen and (max-width: 800px) {
+
+                    .container--1-0{
+                        width: 100%;
+                    }
+
+                    .container--2-0{
+                        width:100%;
+                    }
+
+                    .container--3-0{
+                        width:100%;
+                    }
+                    
+
+                }
+
+
+
+
