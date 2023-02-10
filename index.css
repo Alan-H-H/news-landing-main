@@ -6,7 +6,7 @@
     }
 
     .img--0{
-        margin-left: 50px;
+    margin-left: 50px;
     }
    
     .title{
@@ -116,7 +116,7 @@
                     border: none;
                 }
 
-                .container--2-0{
+                .container--2{
                     margin-top: 30px;
                     width:25%;
                     float: right;
@@ -143,7 +143,7 @@
                     box-sizing: border-box;
                 }
                 
-                .container--3-0{
+                .container--3{
                     margin: 0 auto;
                     width: 100%;
                     display: flex;
@@ -187,6 +187,10 @@
 
                     .container--1-0{
                         width: 100%;
+                    }
+                    .h3{
+                        font-size: 20px;
+                        padding: 0px 0px;
                     }
 
                     .container--2-0{
